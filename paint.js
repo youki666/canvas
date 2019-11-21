@@ -3,10 +3,10 @@ var canvas = document.getElementById('canvas');
  var context = canvas.getContext('2d');
   var lineWidth = 3;
   thin.onclick = function(){
-  	lineWidth = 3;
+  	lineWidth = 5;
   }
     thick.onclick = function(){
-  	lineWidth = 10;
+  	lineWidth = 20;
   }
 window.onresize = function(){
    setSize();
