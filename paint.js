@@ -6,7 +6,7 @@ var canvas = document.getElementById('canvas');
   	lineWidth = 3;
   }
     thick.onclick = function(){
-  	lineWidth = 5;
+  	lineWidth = 10;
   }
 window.onresize = function(){
    setSize();
@@ -119,7 +119,7 @@ save.onclick = function (){
         window.location.href=image; // it will save locally
             
    /*the second method to download*/         
-/*       var img = canvas.toDataURL('image/png');
+/*     var img = canvas.toDataURL('image/png');
        var a = document.createElement('a');
        document.body.appendChild(a);
        a.href = img;
